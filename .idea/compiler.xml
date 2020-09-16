@@ -6,9 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="factory_method_pattern" />
         <module name="abstract_factory_pattern" />
+        <module name="lazy_load_safe_singleton_pattern" />
+        <module name="unlazy_load_safe_singleton_pattern" />
         <module name="simple_factory_pattern" />
+        <module name="enum_singleton_pattern" />
+        <module name="static_inner_class_singleton_pattern" />
+        <module name="factory_method_pattern" />
+        <module name="double_checked_locking_singleton_pattern" />
+        <module name="lazy_load_unsafe_singleton_pattern" />
       </profile>
     </annotationProcessing>
   </component>

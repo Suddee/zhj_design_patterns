@@ -12,6 +12,12 @@
         <module>simple_factory_pattern</module>
         <module>factory_method_pattern</module>
         <module>abstract_factory_pattern</module>
+        <module>lazy_load_unsafe_singleton_pattern</module>
+        <module>lazy_load_safe_singleton_pattern</module>
+        <module>unlazy_load_safe_singleton_pattern</module>
+        <module>double_checked_locking_singleton_pattern</module>
+        <module>static_inner_class_singleton_pattern</module>
+        <module>enum_singleton_pattern</module>
     </modules>
 
 
