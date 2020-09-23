@@ -18,6 +18,8 @@
         <module>double_checked_locking_singleton_pattern</module>
         <module>static_inner_class_singleton_pattern</module>
         <module>enum_singleton_pattern</module>
+        <module>builder_pattern</module>
+        <module>builder_pattern_static_innerClass</module>
     </modules>
 
 
