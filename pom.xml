@@ -20,6 +20,8 @@
         <module>enum_singleton_pattern</module>
         <module>builder_pattern</module>
         <module>builder_pattern_static_innerClass</module>
+        <module>push_observer_design_pattern</module>
+        <module>pull_observer_design_pattern</module>
     </modules>
 
 
