@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b88b8fa-5351-4062-81c9-7798c89418a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pull_observer_design_pattern/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pull_observer_design_pattern/pull_observer_design_pattern.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pull_observer_design_pattern/src/main/java/com/zhj/app/ConcreteObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pull_observer_design_pattern/src/main/java/com/zhj/app/ConcreteSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pull_observer_design_pattern/src/main/java/com/zhj/app/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pull_observer_design_pattern/src/main/java/com/zhj/app/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/push_observer_design_pattern/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/push_observer_design_pattern/src/main/java/com/zhj/app/ConcreteObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/push_observer_design_pattern/src/main/java/com/zhj/app/ConcreteSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/push_observer_design_pattern/src/main/java/com/zhj/app/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/push_observer_design_pattern/src/main/java/com/zhj/app/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype_pattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype_pattern/src/main/java/com/zhj/app/deep/DeepPrototype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype_pattern/src/main/java/com/zhj/app/deep/DeepPrototype2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype_pattern/src/main/java/com/zhj/app/shallow/Prototype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype_pattern/src/main/java/com/zhj/app/shallow/ShallowPrototype.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -33,6 +27,7 @@
     <ignored path="$PROJECT_DIR$/builder_pattern_static_innerClass/target/" />
     <ignored path="$PROJECT_DIR$/push_observer_design_pattern/target/" />
     <ignored path="$PROJECT_DIR$/pull_observer_design_pattern/target/" />
+    <ignored path="$PROJECT_DIR$/prototype_pattern/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/pull_observer_design_pattern/src/main/java/com/zhj/app/Observer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
-              <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -56,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pull_observer_design_pattern/src/main/java/com/zhj/app/ConcreteObserver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+            <state relative-caret-position="361">
+              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -65,21 +60,100 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pull_observer_design_pattern/src/main/java/com/zhj/app/Subject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
+            <state relative-caret-position="209">
               <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#254#264#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pull_observer_design_pattern/src/main/java/com/zhj/app/ConcreteSubject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prototype_pattern/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prototype_pattern/src/main/java/com/zhj/app/shallow/Prototype.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="50" column="58" selection-start-line="50" selection-start-column="58" selection-end-line="50" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prototype_pattern/src/main/java/com/zhj/app/shallow/ShallowPrototype.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+              <folding>
+                <element signature="e#209#210#0" expanded="true" />
+                <element signature="e#233#234#0" expanded="true" />
+                <element signature="e#264#265#0" expanded="true" />
+                <element signature="e#290#291#0" expanded="true" />
+                <element signature="e#600#601#0" expanded="true" />
+                <element signature="e#628#629#0" expanded="true" />
+                <element signature="e#945#946#0" expanded="true" />
+                <element signature="e#1022#1023#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prototype_pattern/src/main/java/com/zhj/app/deep/DeepPrototype.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="56" column="13" lean-forward="true" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+              <folding>
+                <element signature="e#228#229#0" expanded="true" />
+                <element signature="e#252#253#0" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#309#310#0" expanded="true" />
+                <element signature="e#914#915#0" expanded="true" />
+                <element signature="e#942#943#0" expanded="true" />
+                <element signature="e#1320#1321#0" expanded="true" />
+                <element signature="e#1397#1398#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pull_observer_design_pattern/src/main/java/com/zhj/app/ConcreteSubject.java">
+        <entry file="file://$PROJECT_DIR$/prototype_pattern/src/main/java/com/zhj/app/deep/DeepPrototype2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+            <state relative-caret-position="399">
+              <caret line="77" column="13" lean-forward="true" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
+              <folding>
+                <element signature="e#253#254#0" expanded="true" />
+                <element signature="e#277#278#0" expanded="true" />
+                <element signature="e#308#309#0" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
+                <element signature="e#1395#1396#0" expanded="true" />
+                <element signature="e#1423#1424#0" expanded="true" />
+                <element signature="e#1907#1908#0" expanded="true" />
+                <element signature="e#1984#1985#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/io/ObjectOutputStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="1183" column="26" selection-start-line="1183" selection-start-column="26" selection-end-line="1183" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -144,6 +218,10 @@
         <option value="$PROJECT_DIR$/pull_observer_design_pattern/src/main/java/com/zhj/app/ConcreteObserver.java" />
         <option value="$PROJECT_DIR$/pull_observer_design_pattern/src/main/java/com/zhj/app/Subject.java" />
         <option value="$PROJECT_DIR$/pull_observer_design_pattern/src/main/java/com/zhj/app/ConcreteSubject.java" />
+        <option value="$PROJECT_DIR$/prototype_pattern/src/main/java/com/zhj/app/shallow/Prototype.java" />
+        <option value="$PROJECT_DIR$/prototype_pattern/src/main/java/com/zhj/app/deep/DeepPrototype2.java" />
+        <option value="$PROJECT_DIR$/prototype_pattern/src/main/java/com/zhj/app/shallow/ShallowPrototype.java" />
+        <option value="$PROJECT_DIR$/prototype_pattern/src/main/java/com/zhj/app/deep/DeepPrototype.java" />
       </list>
     </option>
   </component>
@@ -155,10 +233,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="1943" />
-    <option name="height" value="1043" />
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1944" />
+    <option name="height" value="1044" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -181,25 +259,25 @@
             <path>
               <item name="zhj_design_patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhj_design_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="pull_observer_design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="prototype_pattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zhj_design_patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhj_design_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="pull_observer_design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="prototype_pattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zhj_design_patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhj_design_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="pull_observer_design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="prototype_pattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zhj_design_patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhj_design_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="pull_observer_design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="prototype_pattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -207,7 +285,7 @@
             <path>
               <item name="zhj_design_patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhj_design_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="pull_observer_design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="prototype_pattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -216,7 +294,7 @@
             <path>
               <item name="zhj_design_patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhj_design_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="pull_observer_design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="prototype_pattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -226,13 +304,76 @@
             <path>
               <item name="zhj_design_patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhj_design_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="pull_observer_design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="prototype_pattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="zhj" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhj_design_patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhj_design_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="prototype_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zhj" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="deep" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhj_design_patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhj_design_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="prototype_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zhj" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="deep" type="462c0819:PsiDirectoryNode" />
+              <item name="DeepPrototype.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="zhj_design_patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhj_design_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="prototype_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zhj" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="deep" type="462c0819:PsiDirectoryNode" />
+              <item name="DeepPrototype2.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="zhj_design_patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhj_design_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="prototype_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zhj" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="shallow" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhj_design_patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhj_design_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="prototype_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zhj" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="shallow" type="462c0819:PsiDirectoryNode" />
+              <item name="ShallowPrototype.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -250,6 +391,9 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zhj.app.shallow" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\zhj_design_patterns\abstract_factory_pattern\src\main\java\com\zhj\app\pojo\phone" />
       <recent name="D:\zhj_design_patterns\factory_method_pattern\src\main\java\com\zhj\app" />
@@ -267,13 +411,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test (1)">
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhj.app.Demo" />
-      <module name="simple_factory_pattern" />
+  <component name="RunManager" selected="Application.ShallowPrototype">
+    <configuration name="DeepPrototype" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhj.app.deep.DeepPrototype" />
+      <module name="prototype_pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zhj.app.*" />
+          <option name="PATTERN" value="com.zhj.app.deep.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeepPrototype2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhj.app.deep.DeepPrototype2" />
+      <module name="prototype_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhj.app.deep.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -300,6 +457,32 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zhj.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Prototype" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhj.app.shallow.Prototype" />
+      <module name="prototype_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhj.app.shallow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShallowPrototype" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhj.app.shallow.ShallowPrototype" />
+      <module name="prototype_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhj.app.shallow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -335,9 +518,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.ShallowPrototype" />
+        <item itemvalue="Application.DeepPrototype2" />
+        <item itemvalue="Application.Prototype" />
+        <item itemvalue="Application.DeepPrototype" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -358,16 +543,17 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49780703" visible="true" weight="0.25788197" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49780703" visible="true" weight="0.261924" />
       <window_info id="Structure" order="1" sideWeight="0.502193" side_tool="true" weight="0.2497979" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27708703" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23978686" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -387,40 +573,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/factory_method_pattern/src/main/java/com/zhj/app/factory/AppleFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/factory_method_pattern/src/main/java/com/zhj/app/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/abstract_factory_pattern/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/factory_method_pattern/src/main/java/com/zhj/app/pojo/IPhone.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/abstract_factory_pattern/src/main/java/com/zhj/app/pojo/phone/Phone.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/abstract_factory_pattern/src/main/java/com/zhj/app/pojo/phone/IPhone.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/abstract_factory_pattern/src/main/java/com/zhj/app/pojo/phone/MiPhone.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -724,24 +876,23 @@
     <entry file="file://$PROJECT_DIR$/pull_observer_design_pattern/src/main/java/com/zhj/app/Observer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pull_observer_design_pattern/src/main/java/com/zhj/app/ConcreteObserver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        <state relative-caret-position="361">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pull_observer_design_pattern/src/main/java/com/zhj/app/Subject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
+        <state relative-caret-position="209">
           <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#254#264#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -749,7 +900,75 @@
     <entry file="file://$PROJECT_DIR$/pull_observer_design_pattern/src/main/java/com/zhj/app/ConcreteSubject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prototype_pattern/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prototype_pattern/src/main/java/com/zhj/app/shallow/Prototype.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="50" column="58" selection-start-line="50" selection-start-column="58" selection-end-line="50" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/io/ObjectOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="1183" column="26" selection-start-line="1183" selection-start-column="26" selection-end-line="1183" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prototype_pattern/src/main/java/com/zhj/app/shallow/ShallowPrototype.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+          <folding>
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#945#946#0" expanded="true" />
+            <element signature="e#1022#1023#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prototype_pattern/src/main/java/com/zhj/app/deep/DeepPrototype.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="56" column="13" lean-forward="true" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+          <folding>
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#914#915#0" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#1320#1321#0" expanded="true" />
+            <element signature="e#1397#1398#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prototype_pattern/src/main/java/com/zhj/app/deep/DeepPrototype2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="77" column="13" lean-forward="true" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
+          <folding>
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#1395#1396#0" expanded="true" />
+            <element signature="e#1423#1424#0" expanded="true" />
+            <element signature="e#1907#1908#0" expanded="true" />
+            <element signature="e#1984#1985#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
