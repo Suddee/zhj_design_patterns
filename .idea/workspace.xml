@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b88b8fa-5351-4062-81c9-7798c89418a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/prototype_pattern/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prototype_pattern/src/main/java/com/zhj/app/deep/DeepPrototype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prototype_pattern/src/main/java/com/zhj/app/deep/DeepPrototype2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prototype_pattern/src/main/java/com/zhj/app/shallow/Prototype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prototype_pattern/src/main/java/com/zhj/app/shallow/ShallowPrototype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/com/zhj/app/Beverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/com/zhj/app/CoffeeShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/com/zhj/app/add/Additional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/com/zhj/app/add/Milk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/com/zhj/app/add/Mocha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/com/zhj/app/drinks/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/com/zhj/app/drinks/Juice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/com/zhj/app/drinks/Tea.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -28,6 +32,7 @@
     <ignored path="$PROJECT_DIR$/push_observer_design_pattern/target/" />
     <ignored path="$PROJECT_DIR$/pull_observer_design_pattern/target/" />
     <ignored path="$PROJECT_DIR$/prototype_pattern/target/" />
+    <ignored path="$PROJECT_DIR$/decorator/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,120 +45,128 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pull_observer_design_pattern/src/main/java/com/zhj/app/Observer.java">
+        <entry file="file://$PROJECT_DIR$/prototype_pattern/src/main/java/com/zhj/app/deep/DeepPrototype2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+            <state relative-caret-position="758">
+              <caret line="92" selection-start-line="87" selection-start-column="18" selection-end-line="92" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pull_observer_design_pattern/src/main/java/com/zhj/app/ConcreteObserver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pull_observer_design_pattern/src/main/java/com/zhj/app/Subject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pull_observer_design_pattern/src/main/java/com/zhj/app/ConcreteSubject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prototype_pattern/pom.xml">
+        <entry file="file://$PROJECT_DIR$/decorator/pom.xml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prototype_pattern/src/main/java/com/zhj/app/shallow/Prototype.java">
+        <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/zhj/app/Beverage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="50" column="58" selection-start-line="50" selection-start-column="58" selection-end-line="50" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prototype_pattern/src/main/java/com/zhj/app/shallow/ShallowPrototype.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+            <state relative-caret-position="190">
+              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
               <folding>
-                <element signature="e#209#210#0" expanded="true" />
-                <element signature="e#233#234#0" expanded="true" />
-                <element signature="e#264#265#0" expanded="true" />
-                <element signature="e#290#291#0" expanded="true" />
-                <element signature="e#600#601#0" expanded="true" />
-                <element signature="e#628#629#0" expanded="true" />
-                <element signature="e#945#946#0" expanded="true" />
-                <element signature="e#1022#1023#0" expanded="true" />
+                <element signature="e#242#243#0" expanded="true" />
+                <element signature="e#276#277#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prototype_pattern/src/main/java/com/zhj/app/deep/DeepPrototype.java">
+        <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/zhj/app/drinks/Coffee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="56" column="13" lean-forward="true" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+            <state relative-caret-position="247">
+              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
               <folding>
-                <element signature="e#228#229#0" expanded="true" />
-                <element signature="e#252#253#0" expanded="true" />
-                <element signature="e#283#284#0" expanded="true" />
-                <element signature="e#309#310#0" expanded="true" />
-                <element signature="e#914#915#0" expanded="true" />
-                <element signature="e#942#943#0" expanded="true" />
-                <element signature="e#1320#1321#0" expanded="true" />
-                <element signature="e#1397#1398#0" expanded="true" />
+                <element signature="e#188#189#0" expanded="true" />
+                <element signature="e#219#220#0" expanded="true" />
+                <element signature="e#191#192#0" expanded="true" />
+                <element signature="e#215#216#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/zhj/app/drinks/Juice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <element signature="e#186#187#0" expanded="true" />
+                <element signature="e#223#224#0" expanded="true" />
+                <element signature="e#183#184#0" expanded="true" />
+                <element signature="e#207#208#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/zhj/app/drinks/Tea.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <element signature="e#179#180#0" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+                <element signature="e#180#181#0" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/zhj/app/add/Additional.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/prototype_pattern/src/main/java/com/zhj/app/deep/DeepPrototype2.java">
+        <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/zhj/app/add/Mocha.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="77" column="13" lean-forward="true" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
+            <state relative-caret-position="385">
+              <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
               <folding>
-                <element signature="e#253#254#0" expanded="true" />
-                <element signature="e#277#278#0" expanded="true" />
-                <element signature="e#308#309#0" expanded="true" />
-                <element signature="e#334#335#0" expanded="true" />
-                <element signature="e#1395#1396#0" expanded="true" />
-                <element signature="e#1423#1424#0" expanded="true" />
-                <element signature="e#1907#1908#0" expanded="true" />
-                <element signature="e#1984#1985#0" expanded="true" />
+                <element signature="e#356#357#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+                <element signature="e#224#225#0" expanded="true" />
+                <element signature="e#251#252#0" expanded="true" />
+                <element signature="e#276#277#0" expanded="true" />
+                <element signature="e#300#301#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/io/ObjectOutputStream.java">
+        <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/zhj/app/add/Milk.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="1183" column="26" selection-start-line="1183" selection-start-column="26" selection-end-line="1183" selection-end-column="26" />
+            <state relative-caret-position="418">
+              <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+              <folding>
+                <element signature="e#383#384#0" expanded="true" />
+                <element signature="e#423#424#0" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
+                <element signature="e#536#537#0" expanded="true" />
+                <element signature="e#275#276#0" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/zhj/app/CoffeeShop.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -175,14 +188,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/simple_factory_pattern/src/main/java/com/zhj/app/pojo/Phone.java" />
-        <option value="$PROJECT_DIR$/simple_factory_pattern/src/main/java/com/zhj/app/pojo/MiPhone.java" />
-        <option value="$PROJECT_DIR$/simple_factory_pattern/src/main/java/com/zhj/app/pojo/IPhone.java" />
-        <option value="$PROJECT_DIR$/simple_factory_pattern/src/main/java/com/zhj/app/factory/PhoneFactory.java" />
-        <option value="$PROJECT_DIR$/simple_factory_pattern/src/main/java/com/zhj/app/Demo.java" />
-        <option value="$PROJECT_DIR$/factory_method_pattern/src/main/java/com/zhj/app/factory/AbstractFactory.java" />
-        <option value="$PROJECT_DIR$/factory_method_pattern/src/main/java/com/zhj/app/factory/MiFactory.java" />
-        <option value="$PROJECT_DIR$/factory_method_pattern/src/main/java/com/zhj/app/factory/AppleFactory.java" />
         <option value="$PROJECT_DIR$/factory_method_pattern/src/main/java/com/zhj/app/Demo.java" />
         <option value="$PROJECT_DIR$/abstract_factory_pattern/src/main/java/com/zhj/app/pojo/phone/MiPhone.java" />
         <option value="$PROJECT_DIR$/abstract_factory_pattern/src/main/java/com/zhj/app/pojo/pc/PC.java" />
@@ -222,6 +227,18 @@
         <option value="$PROJECT_DIR$/prototype_pattern/src/main/java/com/zhj/app/deep/DeepPrototype2.java" />
         <option value="$PROJECT_DIR$/prototype_pattern/src/main/java/com/zhj/app/shallow/ShallowPrototype.java" />
         <option value="$PROJECT_DIR$/prototype_pattern/src/main/java/com/zhj/app/deep/DeepPrototype.java" />
+        <option value="$PROJECT_DIR$/decorator/src/main/java/Beverage.java" />
+        <option value="$PROJECT_DIR$/decorator/src/main/java/coffee.java" />
+        <option value="$PROJECT_DIR$/decorator/src/main/java/Juice.java" />
+        <option value="$PROJECT_DIR$/decorator/src/main/java/Tea.java" />
+        <option value="$PROJECT_DIR$/decorator/src/main/java/Additional.java" />
+        <option value="$PROJECT_DIR$/decorator/src/main/java/Coffee.java" />
+        <option value="$PROJECT_DIR$/decorator/src/main/java/drinks/Coffee.java" />
+        <option value="$PROJECT_DIR$/decorator/src/main/java/com/zhj/app/drinks/Coffee.java" />
+        <option value="$PROJECT_DIR$/decorator/src/main/java/com/zhj/app/Beverage.java" />
+        <option value="$PROJECT_DIR$/decorator/src/main/java/com/zhj/app/CoffeeShop.java" />
+        <option value="$PROJECT_DIR$/decorator/src/main/java/com/zhj/app/add/Milk.java" />
+        <option value="$PROJECT_DIR$/decorator/src/main/java/com/zhj/app/add/Mocha.java" />
       </list>
     </option>
   </component>
@@ -233,10 +250,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
-    <option name="width" value="1944" />
-    <option name="height" value="1044" />
+    <option name="x" value="-8" />
+    <option name="y" value="-1088" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -248,7 +265,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -259,138 +276,102 @@
             <path>
               <item name="zhj_design_patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhj_design_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="prototype_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="decorator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zhj_design_patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhj_design_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="prototype_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="decorator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zhj_design_patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhj_design_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="prototype_pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zhj_design_patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhj_design_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="prototype_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="decorator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zhj_design_patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhj_design_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="prototype_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="decorator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zhj_design_patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhj_design_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="prototype_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="decorator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zhj" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zhj_design_patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhj_design_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="prototype_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="decorator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="zhj" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zhj_design_patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhj_design_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="prototype_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="decorator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="zhj" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="deep" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zhj_design_patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhj_design_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="prototype_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="decorator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="zhj" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="deep" type="462c0819:PsiDirectoryNode" />
-              <item name="DeepPrototype.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="add" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zhj_design_patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhj_design_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="prototype_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="decorator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="zhj" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="deep" type="462c0819:PsiDirectoryNode" />
-              <item name="DeepPrototype2.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="zhj_design_patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhj_design_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="prototype_pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zhj" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="shallow" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zhj_design_patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhj_design_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="prototype_pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zhj" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="shallow" type="462c0819:PsiDirectoryNode" />
-              <item name="ShallowPrototype.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="drinks" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../zhj_speechtranscriber_backend_01" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.zhj.app.shallow" />
     </key>
@@ -411,7 +392,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ShallowPrototype">
+  <component name="RunManager" selected="Application.CoffeeShop">
+    <configuration name="CoffeeShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhj.app.CoffeeShop" />
+      <module name="decorator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhj.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DeepPrototype" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhj.app.deep.DeepPrototype" />
       <module name="prototype_pattern" />
@@ -431,19 +425,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zhj.app.deep.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhj.app.Demo" />
-      <module name="factory_method_pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhj.app.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -492,19 +473,6 @@
     </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhj.app.Test" />
-      <module name="builder_pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhj.app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhj.app.Test" />
       <module name="builder_pattern_static_innerClass" />
       <extension name="coverage">
         <pattern>
@@ -518,11 +486,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CoffeeShop" />
         <item itemvalue="Application.ShallowPrototype" />
         <item itemvalue="Application.DeepPrototype2" />
         <item itemvalue="Application.Prototype" />
         <item itemvalue="Application.DeepPrototype" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -540,20 +508,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-8" y="-1088" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49780703" visible="true" weight="0.261924" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49780703" visible="true" weight="0.18123667" />
       <window_info id="Structure" order="1" sideWeight="0.502193" side_tool="true" weight="0.2497979" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23978686" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23969631" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -561,7 +528,8 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3285968" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3275488" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -573,63 +541,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/abstract_factory_pattern/src/main/java/com/zhj/app/pojo/phone/MiPhone.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/abstract_factory_pattern/src/main/java/com/zhj/app/pojo/pc/PC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/abstract_factory_pattern/src/main/java/com/zhj/app/pojo/pc/MiPC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-          <folding>
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/abstract_factory_pattern/src/main/java/com/zhj/app/pojo/pc/MAC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="16" />
-          <folding>
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
-          <caret line="70" column="13" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/reflect/Array.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/abstract_factory_pattern/src/main/java/com/zhj/app/Demo.java" />
-    <entry file="file://$PROJECT_DIR$/lazy_load_unsafe_singleton_pattern/src/main/java/com/zhj/app/Singleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lazy_load_unsafe_singleton_pattern/lazy_load_unsafe_singleton_pattern.iml" />
     <entry file="file://$PROJECT_DIR$/lazy_load_unsafe_singleton_pattern/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -909,39 +820,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/prototype_pattern/src/main/java/com/zhj/app/shallow/Prototype.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
+        <state relative-caret-position="912">
           <caret line="50" column="58" selection-start-line="50" selection-start-column="58" selection-end-line="50" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/io/ObjectOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="1183" column="26" selection-start-line="1183" selection-start-column="26" selection-end-line="1183" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/prototype_pattern/src/main/java/com/zhj/app/shallow/ShallowPrototype.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        <state relative-caret-position="399">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
           <folding>
             <element signature="e#209#210#0" expanded="true" />
             <element signature="e#233#234#0" expanded="true" />
             <element signature="e#264#265#0" expanded="true" />
             <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#628#629#0" expanded="true" />
-            <element signature="e#945#946#0" expanded="true" />
-            <element signature="e#1022#1023#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/prototype_pattern/src/main/java/com/zhj/app/deep/DeepPrototype.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="56" column="13" lean-forward="true" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+        <state relative-caret-position="950">
+          <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
           <folding>
             <element signature="e#228#229#0" expanded="true" />
             <element signature="e#252#253#0" expanded="true" />
@@ -949,25 +849,120 @@
             <element signature="e#309#310#0" expanded="true" />
             <element signature="e#914#915#0" expanded="true" />
             <element signature="e#942#943#0" expanded="true" />
-            <element signature="e#1320#1321#0" expanded="true" />
-            <element signature="e#1397#1398#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/io/ObjectOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21755">
+          <caret line="1183" column="26" selection-start-line="1183" selection-start-column="26" selection-end-line="1183" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/prototype_pattern/src/main/java/com/zhj/app/deep/DeepPrototype2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="77" column="13" lean-forward="true" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
+        <state relative-caret-position="758">
+          <caret line="92" selection-start-line="87" selection-start-column="18" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/zhj/app/drinks/Coffee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
           <folding>
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#1395#1396#0" expanded="true" />
-            <element signature="e#1423#1424#0" expanded="true" />
-            <element signature="e#1907#1908#0" expanded="true" />
-            <element signature="e#1984#1985#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/zhj/app/Beverage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding>
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/zhj/app/drinks/Juice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/zhj/app/add/Additional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/zhj/app/drinks/Tea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/zhj/app/CoffeeShop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/zhj/app/add/Milk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+          <folding>
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/zhj/app/add/Mocha.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+          <folding>
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
           </folding>
         </state>
       </provider>

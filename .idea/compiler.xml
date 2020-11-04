@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="lazy_load_safe_singleton_pattern" />
+        <module name="decorator" />
         <module name="pull_observer_design_pattern" />
         <module name="double_checked_locking_singleton_pattern" />
         <module name="push_observer_design_pattern" />

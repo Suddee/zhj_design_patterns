@@ -23,6 +23,7 @@
         <module>push_observer_design_pattern</module>
         <module>pull_observer_design_pattern</module>
         <module>prototype_pattern</module>
+        <module>decorator</module>
     </modules>
 
 
